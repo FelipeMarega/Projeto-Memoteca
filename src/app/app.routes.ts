@@ -1,3 +1,13 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
+import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
+export const routes: Routes = [
+  {
+    path: 'criarPensamento',
+    component: CriarPensamentoComponent,
+  },
+  {
+    path: 'listarPensamento',
+    component: ListarPensamentoComponent,
+  },
+];
